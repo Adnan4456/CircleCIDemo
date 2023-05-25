@@ -31,6 +31,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun Greeting(name: String) {
+    Text(text = "test comment $name!")
     Text(text = "Hello $name!")
 }
 
